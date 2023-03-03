@@ -1,14 +1,23 @@
 <template>
-  <Form />
+  <div class="flex">
+    <div class="w-1/5">
+      <Stepper />
+    </div>
+    <div class="w-1/2">
+      <Form />
+    </div>
+  </div>
 </template>
 
 <script>
 import Form from './components/Form.vue'
+import Stepper from './components/Stepper.vue'
 
 export default {
   name: 'App',
   components: {
-    Form
+    Form,
+    Stepper
   }
 }
 </script>
