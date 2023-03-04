@@ -1,16 +1,18 @@
 <template>
   <FirstStep />
+  <SecondStep />
 </template>
 
 <script>
 import FirstStep from './steps/FirstStep.vue';
+import SecondStep from './steps/SecondStep.vue';
 
 export default {
     name: "HelloWorld",
     props: {
         msg: String
     },
-    components: { FirstStep }
+    components: { FirstStep, SecondStep }
 }
 </script>
 
