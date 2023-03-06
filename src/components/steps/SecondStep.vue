@@ -1,13 +1,14 @@
 <template>
-    <div class="min-h-screen overflow-auto">
-  <div class="container mx-auto max-w-4xl">
+    <div class="overflow-auto">
+  <div class="container mx-auto">
     <div class="mt-10 text-center">
       <h1 class="text-lg font-bold text-gray-800 text-left">Select your plan</h1>
       <p class="text-sm text-left text-gray-400">You have the option of monthly or yearly billing.</p>
     </div>
-    <div class="flex space-x-10 pt-10">
+    <div class="flex space-x-5 pt-10">
     <div class="py-12">
       <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+        <img src="../../assets/images/icon-arcade.svg" alt="">
         <div class="px-8 flex justify-between items-center">
           <h5 class="text-md font-bold">Arcade</h5>
         </div>
@@ -16,6 +17,7 @@
     </div>
     <div class="py-12">
       <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+        <img src="../../assets/images/icon-advanced.svg" alt="">
         <div class="px-8 flex justify-between items-center">
           <h5 class="text-md font-bold">Advanced</h5>
         </div>
@@ -23,7 +25,8 @@
       </div>
     </div>
     <div class="py-12">
-      <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+      <div class="bg-white pt-4 pr-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+        <img src="../../assets/images/icon-advanced.svg" alt="">
         <div class="px-8 flex justify-between items-center">
           <h5 class="text-md font-bold">Pro</h5>
         </div>

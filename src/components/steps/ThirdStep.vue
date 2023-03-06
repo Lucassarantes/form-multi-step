@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen overflow-auto">
+    <div class="overflow-auto">
   <div class="container mx-auto max-w-4xl">
     <div class="mt-10 text-center">
       <h1 class="text-lg font-bold text-gray-800 text-left">Pick add-ons</h1>
